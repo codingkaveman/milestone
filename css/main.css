@@ -1,0 +1,174 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Libre Baskerville', serif;
+    color: #ffffff;
+}
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#about,header, #portfolio, #contact {
+    height: 600px;
+}
+#about, #portfolio {
+    padding: 50px 0;
+    margin: 1px;
+}
+#contact {
+    padding: 50px 0;
+    height: 250px;
+}
+/***** GRID STYLES *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** MAIN & HEADER *****/
+header h1 i {
+    width: 40px;
+}
+header h1 {
+    color: #313131;
+    font-family: 'Libre Baskerville Bold', serif;
+    font-size: 64px;
+    padding-top: 166px;
+    width: 666px;
+    margin-bottom: 0;
+}
+header span {
+    color: #ff654a;
+}
+header nav {
+    float: right;
+}
+header nav ul {
+    padding: 10px;;
+    height: 100px;
+}
+header nav ul li {
+    color: #313131;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    margin: 25px;
+}
+header nav ul li a {
+    color: #313131;
+    text-decoration-color: #ff654a;
+}
+header p {
+    color: #313131;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    width: 830px;
+    margin: 10px 0 200px 0;
+}
+
+/***** ABOUT *****/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#about {
+    background: #ff654a;
+}
+#about h2 {
+    text-align: center;
+    font-family: 'Libre Baskerville Bold', serif;
+    font-size: 36px;
+}
+#about img {
+    border: 5px solid #ffffff;
+    width: 300px;
+}
+#about h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+#about p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+#about h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+    
+}
+
+/***** PORTFOLIO *****/
+#portfolio h2 {
+    color: #313131;
+    font-family: 'Libre Baskerville Bold', serif;
+    font-size: 36px;
+    text-align: center;
+    
+}
+#portfolio img {
+    border-width: 1px solid #b7b7b7;
+    height: 200px;
+    margin: 0 40px;
+}
+#portfolio h3 {
+    color: #313131;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+#portfolio p {
+    color: #313131;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+/***** CONTACT *****/
+#contact {
+ background: #ff654a;
+}
+#images {
+    display: inline;
+    
+    
+}
+#contact h2 {
+    color: #ffffff;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 36px;
+    text-align: center;
+}
+#contact h3 {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    
+}
+#contact p {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    
+}
+/***** FOOTER *****/
+footer {
+    color: #313131;
+    clear: both;
+    text-align: center;
+}
