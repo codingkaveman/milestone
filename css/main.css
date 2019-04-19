@@ -1,19 +1,25 @@
 /***** BASE STYLES *****/
+html {
+    zoom: 55%;
+}
+
 body {
     font-family: 'Libre Baskerville', serif;
     color: #ffffff;
 }
 #container {
     width: 1200px;
-    margin: 0 auto;
+    margin: auto;
 }
 
-#about,header, #portfolio, #contact {
+#about, header, #contact {
     height: 600px;
+}
+#portfolio {
+   height: 500px;
 }
 #about, #portfolio {
     padding: 50px 0;
-    margin: 1px;
 }
 #contact {
     padding: 50px 0;
@@ -22,11 +28,11 @@ body {
 /***** GRID STYLES *****/
 .full-width {
     width: 1200px;
-    margin: 0 auto;
+    margin: auto;
 }
 .half-width {
     width: 600px;
-    float: left;
+    float: right;
 }
 .third-width {
     width: 400px;
@@ -85,9 +91,10 @@ header p {
     background: #ff654a;
 }
 #about h2 {
-    text-align: center;
-    font-family: 'Libre Baskerville Bold', serif;
+    color: #ffffff;
+    font-family: 'Libre Baskerville', serif;
     font-size: 36px;
+    text-align: center;
 }
 #about img {
     border: 5px solid #ffffff;
@@ -116,7 +123,7 @@ header p {
     color: #313131;
     font-family: 'Libre Baskerville Bold', serif;
     font-size: 36px;
-    text-align: center;
+    text-align: left;
     
 }
 #portfolio img {
